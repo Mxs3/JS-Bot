@@ -5,9 +5,7 @@ const jsonPackage = require('../assets/package.json');
 const jsonConfig = require('../assets/config.json');
 const yt = require('ytdl-core');
 const botToken = jsonConfig.ITEMS.TOKEN;
-//const genChannelId = '787473942348693547';
-const genChannelId = '798618318659518475';
-const audioFiles = ['./assets/audio/song.mp3', './assets/audio/song2.mp3'];
+const genChannelId = '787473942348693547';
 const genChannel = client.channels.cache.find(
     channel => channel.id === genChannelId
 );
