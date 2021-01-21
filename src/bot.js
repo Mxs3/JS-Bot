@@ -5,7 +5,7 @@ const jsonPackage = require('../assets/package.json');
 const jsonConfig = require('../assets/config.json');
 const yt = require('ytdl-core');
 const botToken = jsonConfig.ITEMS.TOKEN;
-const genChannelId = '787473942348693547';
+const genChannelId = //General channel id goes here;
 const genChannel = client.channels.cache.find(
     channel => channel.id === genChannelId
 );
